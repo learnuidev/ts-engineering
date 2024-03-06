@@ -1,7 +1,6 @@
 "use client";
 
 import { Navbar } from "@/components/nav-bar";
-import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 export default function Learn() {
