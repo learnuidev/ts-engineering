@@ -5,6 +5,7 @@ import {
 import {
   faCompass,
   faEarthAsia,
+  faGear,
   faHome,
   faMagnifyingGlass,
   faRectangleVerticalHistory,
@@ -22,4 +23,5 @@ export const Icons = {
   earthAsia: createFAIcon(faEarthAsia),
   compass: createFAIcon(faCompass),
   home: createFAIcon(faHome),
+  gear: createFAIcon(faGear),
 };
