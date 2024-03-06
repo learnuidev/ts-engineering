@@ -3,7 +3,7 @@
 import { Icons } from "@/components/icons";
 import { useRouter } from "next/navigation";
 
-function NavButton({ onClick, children }: any) {
+export function NavButton({ onClick, children }: any) {
   return (
     <button onClick={onClick} className="hover:bg-none active:bg-none text-2xl">
       {children}
