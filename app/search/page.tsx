@@ -15,7 +15,7 @@ export default function Home() {
           placeholder="Ask anything"
           className={clsx(
             "md:h-16 border-none rounded-none focus-visible:ring-transparent block mx-auto font-exralight text-center focus-visible:ring-0",
-            "placeholder:text-gray-200 placeholder:font-light placeholder:text-2xl md:placeholder:text-4xl",
+            "placeholder:text-gray-200 placeholder:font-extralight placeholder:text-2xl md:placeholder:text-4xl",
             "text-2xl md:text-4xl"
           )}
         />
