@@ -14,9 +14,14 @@ export default function Home() {
       <p className="mx-16 text-center text-2xl font-extralight">
         {homePage.description.title}
       </p>
-      <Button variant="outline" className="rounded-full my-8 mx-auto block">
-        Get Started
-      </Button>
+      <div className="my-8 flex items-center justify-center space-x-4">
+        <Button variant="outline" className="rounded-full">
+          {homePage.getStartedButton.title}
+        </Button>
+        <Button variant="outline" className="rounded-full">
+          {homePage.viewProjects.title}
+        </Button>
+      </div>
     </div>
   );
 }

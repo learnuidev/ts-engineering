@@ -3,10 +3,14 @@ export const homePage = {
     title: "ts engineering",
   },
   description: {
-    title: "networking app from the future",
+    title: "software engineering blog",
   },
 
   getStartedButton: {
     title: "Get Started",
+  },
+
+  viewProjects: {
+    title: "View Projects",
   },
 };
