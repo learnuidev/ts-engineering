@@ -3,7 +3,7 @@ export const homePage = {
     title: "ts engineering",
   },
   description: {
-    title: "software engineering blog",
+    title: "software engineering shop",
   },
 
   getStartedButton: {
