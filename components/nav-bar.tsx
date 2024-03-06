@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 
 export function NavButton({ onClick, children }: any) {
   return (
-    <button onClick={onClick} className="hover:bg-none active:bg-none text-2xl">
+    <button onClick={onClick} className="hover:bg-none active:bg-none text-lg">
       {children}
     </button>
   );
@@ -15,7 +15,7 @@ export function Navbar() {
   const router = useRouter();
 
   return (
-    <div className="mt-4 space-x-12 sm:space-x-16 flex items-center justify-center">
+    <div className="mt-2 space-x-12 flex items-center justify-center">
       <NavButton>
         <Icons.home
           onClick={() => {
@@ -33,14 +33,14 @@ export function Navbar() {
       <NavButton>
         <Icons.verticalStack
           onClick={() => {
-            router.push("/history");
+            router.push("/tasks");
           }}
         />
       </NavButton>
       <NavButton>
         <Icons.compass
           onClick={() => {
-            router.push("/learn");
+            router.push("/discover");
           }}
         />
       </NavButton>
