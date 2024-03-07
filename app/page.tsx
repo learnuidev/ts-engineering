@@ -6,8 +6,7 @@ import { homePage } from "./home-page.constants";
 
 export default function Home() {
   return (
-    <div>
-      <Navbar />
+    <main>
       <h1 className="font-bold text-center mt-56 mb-4 text-5xl md:text-7xl">
         {homePage.header.title}
       </h1>
@@ -22,6 +21,6 @@ export default function Home() {
           {homePage.viewProjects.title}
         </Button>
       </div>
-    </div>
+    </main>
   );
 }
