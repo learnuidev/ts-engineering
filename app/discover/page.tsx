@@ -6,28 +6,42 @@ import Link from "next/link";
 export default function Learn() {
   const lessons = [
     {
-      title: "Getting Started with chadcn + nextjs",
+      title: "921",
+      description: "gen ai platform from the future",
+      link: "https://www.921.studio",
     },
     {
-      title: "Setting Up Font Awesome",
+      title: "mandarino",
+      description: "intelligent language learning platform",
+      link: "https://www.mandarino.io",
     },
     {
-      title: "Reusable Component Intro",
-    },
-    {
-      title: "Fixing Icon Loading Issue",
+      title: "composeui",
+      description: "aws console from the future",
+      link: "https://www.composeui.io",
     },
   ];
   return (
     <div>
       <Navbar />
 
-      <div className="flex items-center justify-center flex-col mt-56 space-y-8">
+      <div className="flex items-center justify-center flex-col mt-56 space-y-12">
         {lessons.map((lesson) => {
           return (
-            <Link href={"/"} className="font-light text-2xl" key={lesson.title}>
-              {lesson.title}
-            </Link>
+            <div key={lesson.title} className="flex flex-col items-center">
+              <Link
+                target="_blank"
+                rel="noreferrer"
+                href={lesson.link}
+                className="font-bold text-4xl"
+              >
+                {lesson.title}
+              </Link>
+
+              <p className="text-gray-800 font-extralight">
+                {lesson.description}
+              </p>
+            </div>
           );
         })}
       </div>
