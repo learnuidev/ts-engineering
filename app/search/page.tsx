@@ -7,7 +7,7 @@ import clsx from "clsx";
 
 export default function Home() {
   return (
-    <main className="mt-56 mx-4 md:mx-32">
+    <main className="mt-72 mx-4 md:mx-32">
       <Input
         autoFocus
         placeholder="Ask anything"
