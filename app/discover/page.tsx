@@ -10,14 +10,14 @@ export default function Learn() {
       link: "https://www.921.studio",
     },
     {
-      title: "kuzoo",
+      title: "mandarino",
       description: "intelligent language learning platform",
-      link: "https://kuzoo.921.studio",
+      link: "https://mandarino.io",
     },
     {
       title: "dyno",
       description: "delightful dynamodb app",
-      link: "https://www.composeui.io",
+      link: "https://www.dyno.im",
     },
   ];
   return (
